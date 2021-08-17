@@ -1,0 +1,60 @@
+.whole {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-items: center;
+  width: 350px;
+}
+
+.display-1 {
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: end;
+  padding: 20px 5px;
+  font-size: 40px;
+}
+
+.display {
+  width: 350px;
+  height: 60px;
+  background-color: #333;
+}
+
+.normal {
+  background-color: grey;
+  border: 1px solid #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  flex: 1;
+  height: 60px;
+  cursor: pointer;
+  font-weight: 200;
+  font-size: large;
+}
+
+.normal:hover {
+  background-color: rgb(66, 66, 66);
+}
+
+.clear {
+  flex-basis: 31.3%;
+}
+
+.zero {
+  flex-basis: 56.3%;
+}
+
+.symbol {
+  background-color: rgba(202, 149, 50, 0.836);
+}
+
+.symbol:hover {
+  background-color: darkgoldenrod;
+}
