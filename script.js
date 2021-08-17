@@ -43,7 +43,6 @@ button3.addEventListener("click", function () {
 });
 
 button4.addEventListener("click", function () {
-  buttonDisplay.innerHTML = 4;
   if (buttonDisplay.innerHTML === "0") {
     buttonDisplay.innerHTML = "4";
   } else {
