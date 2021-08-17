@@ -27,7 +27,7 @@
 }
 
 .normal {
-  background-color: grey;
+  background-color: #525252;
   border: 1px solid #333;
   color: white;
   text-align: center;
@@ -37,10 +37,15 @@
   cursor: pointer;
   font-weight: 200;
   font-size: large;
+  border-radius: 0;
 }
 
 .normal:hover {
-  background-color: rgb(66, 66, 66);
+  background-color: #7e7e7e;
+}
+
+.normal:active {
+  background-color: #bbbcbe;
 }
 
 .clear {
@@ -52,9 +57,13 @@
 }
 
 .symbol {
-  background-color: rgba(202, 149, 50, 0.836);
+  background-color: #df974c;
 }
 
 .symbol:hover {
-  background-color: darkgoldenrod;
+  background-color: #dfb07e;
+}
+
+.symbol:active {
+  background-color: #dd8d37;
 }
